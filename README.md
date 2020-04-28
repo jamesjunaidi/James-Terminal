@@ -1,0 +1,1 @@
+This repository contains my terminal profile settings, my .zshrc file. This is mainly to serve as a backup so I can get these settings back. I also published them on Github so other people can see what settings I use if they want ideas for their own Terminals. I believe it is sufficiently commented to that it makes sense what is going on. 
