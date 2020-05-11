@@ -37,9 +37,12 @@ alias ..="cd .."
 # prevent cd errors
 alias cd..="cd .."
 
-# access vim with less characters
-alias vi="vim"
+# access vim with less characters + automatically opens vim with multiple tabs for multiple files
+alias vi="vim -p"
 
+# quick tar actions
+alias mtar="tar -cvf"
+alias otar="tar -xvf"
 # quickly go to CS folders
 alias cs="cd ~/Desktop/CS"
 alias cs36c="cd ~/Desktop/CS/ecs36c"
