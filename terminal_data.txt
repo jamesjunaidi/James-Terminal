@@ -3,6 +3,7 @@
 #
 # Setting PATH for Python 3.7
 # The original version is saved in .bash_profile.pysave
+
 PATH="/Library/Frameworks/Python.framework/Versions/3.7/bin:${PATH}"
 export PATH
 export ANDROID_HOME=~/Library/Android/sdk
@@ -36,6 +37,8 @@ alias c="clear"
 alias ..="cd .."
 # prevent cd errors
 alias cd..="cd .."
+# go home quickly
+alias ~="cd ~"
 
 # access vim with less characters + automatically opens vim with multiple tabs for multiple files
 alias vi="vim -p"
@@ -50,8 +53,10 @@ alias cs50="cd ~/Desktop/CS/ecs50"
 
 # compiler shortcuts for GNU C and C++
 alias g++="g++ -std=c++11 -Wall -Werror"
-alias gcc="gcc -Wall -Werror -ansi -pedantic"
+alias gcc="gcc -Wall -Werror -std=c11"
 
+#shortcut for GDB to LLDB
+alias gdb="lldb"
 # for the colored executables
 export CLICOLOR=1
 export LSCOLORS=gxfxbxdxcxegedabagacad
