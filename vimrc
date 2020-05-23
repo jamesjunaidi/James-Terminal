@@ -4,11 +4,15 @@ set autoindent
 set history=500
 set encoding=utf8
 set ffs=unix,dos,mac
+set updatetime=50
 set backspace=2
 syntax enable
 filetype plugin indent on
 execute pathogen#infect()
 set mouse=a
+
+"toggle file system with Ctrl + O
+map <C-o> :NERDTreeToggle<CR>
 
 " font
 set gfn=IBM\ Plex\ Mono:h14,Hack:h14,Source\ Code\ Pro:h15,Menlo:h15
