@@ -1,14 +1,26 @@
 set runtimepath+=~/.vim_runtime
+" line numbers
 set number
+" nice and easy line indentations
 set autoindent
+" set history length
 set history=500
+" default encodings
 set encoding=utf8
 set ffs=unix,dos,mac
+" make vim faster
 set updatetime=50
+" fix backspacing bugs
 set backspace=2
+" Enable syntax highlighting
 syntax enable
+
 filetype plugin indent on
+
+" setup the pathogen plugin manager
 execute pathogen#infect()
+
+" set mouse usage on
 set mouse=a
 
 "toggle file system with Ctrl + O
@@ -17,13 +29,15 @@ map <C-o> :NERDTreeToggle<CR>
 " font
 set gfn=IBM\ Plex\ Mono:h14,Hack:h14,Source\ Code\ Pro:h15,Menlo:h15
 map <2> :retab <CR> :w<CR>
+
+" select colorscheme
 colorscheme gruvbox
 if $COLORTERM == 'gnome-terminal'
   set t_Co=256
 endif
 set background=dark
 
-" mappings for {}]
+" mappings for {} highlighting
 vnoremap $1 <esc>`>a)<esc>`<i(<esc>
 vnoremap $2 <esc>`>a]<esc>`<i[<esc>
 vnoremap $3 <esc>`>a}<esc>`<i{<esc>
@@ -65,10 +79,6 @@ map <C-space> ?
 " Disable highlight when <leader><cr> is pressed
 map <silent> <leader><cr> :noh<cr>
 
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Text, tab and indent related
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Use spaces instead of tabs
 set expandtab
 
