@@ -60,3 +60,5 @@ alias gdb="lldb"
 # for the colored executables
 export CLICOLOR=1
 export LSCOLORS=gxfxbxdxcxegedabagacad
+
+eval $(thefuck --alias)
