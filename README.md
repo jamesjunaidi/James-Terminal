@@ -13,3 +13,6 @@ Here is also a list of vim plugins I use:
 
 Here is a working list of Terminal plugins I use:
 1. Fuck (https://github.com/nvbn/thefuck) error checks terminal commands and recomends fixes.
+
+
+I also just added a small python script that launches when I startup my terminal, which I think is just pretty neat!  
