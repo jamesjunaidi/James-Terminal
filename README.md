@@ -1,5 +1,6 @@
 This repository contains my terminal profile settings, my .zshrc file. This is mainly to serve as a backup so I can get these settings back. I also published them on Github so other people can see what settings I use if they want ideas for their own Terminals. I believe it is sufficiently commented to that it makes sense what is going on. 
 
+I also added by .bashrc that I use in my Ubuntu windows subsystem for linux terminal, which is slightly modified from the zshrc that I use on my mac.
 I have also added my .vimrc file as reference to what I use in my vimrc. Some highlights are that I use the Plex font (https://github.com/IBM/plex) for my entire terminal and vim. My colorscheme of choice is gruvbox (https://github.com/morhetz/gruvbox), which I also use in dark mode.
 
 Here is also a list of vim plugins I use:
