@@ -10,6 +10,8 @@ Here is also a list of vim plugins I use:
 4. LightLine (https://github.com/itchyny/lightline.vim) (has a really nice status bar at the bottom
 5. NerdTree (ctrl+o) (https://github.com/preservim/nerdtree) (Allows access to the filesystem really easily)
 6. Vim-Fugitive (https://github.com/tpope/vim-fugitive) (Really nice Git wrapper)
+7. Babel (https://github.com/jbgutierrez/vim-babel) (react.js support)
+8. Webapi-vim (https://github.com/mattn/webapi-vim) (web api support)
 
 Here is a working list of Terminal plugins I use:
 1. Fuck (https://github.com/nvbn/thefuck) error checks terminal commands and recomends fixes.
