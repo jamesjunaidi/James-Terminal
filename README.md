@@ -13,6 +13,8 @@ Here is also a list of vim plugins I use:
 6. Vim-Fugitive (https://github.com/tpope/vim-fugitive) (Really nice Git wrapper)
 7. Babel (https://github.com/jbgutierrez/vim-babel) (react.js support)
 8. Webapi-vim (https://github.com/mattn/webapi-vim) (web api support)
+9. Vim-jsx (https://github.com/mxw/vim-jsx) (Jsx support)
+10. Vim-javascript (https://github.com/pangloss/vim-javascript) (javascript support)
 
 Here is a working list of Terminal plugins I use:
 1. Fuck (https://github.com/nvbn/thefuck) error checks terminal commands and recomends fixes.
