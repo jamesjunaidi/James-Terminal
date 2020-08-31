@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/Users/jamesjunaidi/Desktop/CS/ecs50/h3/p3/Tests'
+let g:netrw_dirhist_3='/Users/jamesjunaidi/Desktop/CS/ecs50/h3/p2/Tests'
+let g:netrw_dirhist_2='/Users/jamesjunaidi/Desktop/CustomLoginDemo'
+let g:netrw_dirhist_1='/Users/jamesjunaidi/Desktop'
