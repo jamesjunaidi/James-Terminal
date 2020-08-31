@@ -3,6 +3,8 @@ This repository contains my terminal profile settings, my .zshrc file. This is m
 I also added by .bashrc that I use in my Ubuntu windows subsystem for linux terminal, which is slightly modified from the zshrc that I use on my mac.
 I have also added my .vimrc file as reference to what I use in my vimrc. Some highlights are that I use the Plex font (https://github.com/IBM/plex) for my entire terminal and vim. My colorscheme of choice is gruvbox (https://github.com/morhetz/gruvbox), which I also use in dark mode.
 
+I have also added my .vim file in a folder called vim_folder. All the vim settings should work by just copying that folder. If it doesn't, then we are going to need to do it the hard way :(.
+
 Here is also a list of vim plugins I use:
 
 1. Pathogen (https://github.com/tpope/vim-pathogen) (my plugin manager)
